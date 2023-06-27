@@ -13,6 +13,6 @@
 let usuarios = [
     {nome: "Eric Galdino", cargo: "Empreendedor", status: "Ativo"},
     {nome: "Galdino Eric", cargo: "Dev", status: "Ativo"},
-    {nome: "Eric Galdino", cargo: "Procastinador", status: "Demitido"}
+    {nome: "Eric Galdino", cargo: "Procastinador", "Demitido"}
 ];
 console.log(usuarios);
