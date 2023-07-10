@@ -10,8 +10,8 @@ function adicionarTarefas(){
         alert("Digite uma informação");
         return false;
     } else {
-        let novaTarefa = inputElement;
-        tarefas.push(novaTare);
+        let novaTarefa = inputElement.value;
+        tarefas.push(novaTarefa);
         inputElement.value = '';
     }
 }
